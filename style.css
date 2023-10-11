@@ -1,0 +1,323 @@
+body {
+    overflow-x: hidden;
+}
+
+.top-bar {
+    top: 0;
+    position: sticky;
+    z-index: 4;
+}
+
+@media screen and (max-width: 414px) {
+    .top-bar {
+        width: 100%;
+    }
+
+    .navbelow-content .col-lg-6 {
+        padding-top: 0px;
+        width: 70%;
+    }
+
+
+
+    .navbelow-content .col-lg-6 .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .navbelow-content {
+        padding-top: 0px !important;
+    }
+
+    .hero-section img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main {
+        width: 100%;
+
+    }
+
+    .seperator {
+        margin-top: 90px !important;
+
+    }
+
+    .navbelow-content .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #consultation {
+        margin-right: 10px;
+    }
+
+    #choose-platform ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+        padding-bottom: 10px;
+    }
+
+    #choose-platform ul button {
+        width: 150px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-content .col-lg-5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .cards {
+        height: 100% !important;
+        padding-bottom: 20px;
+    }
+
+    .download-btn-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .section-heading {
+        padding-top: 20px !important;
+    }
+
+    .admin-cards .row .col-lg-4 {
+        padding: 10px;
+    }
+
+    .feedback {
+        margin-top: 10px !important;
+        height: 1250px !important;
+    }
+
+    .team-content {
+        margin-top: 10px !important;
+    }
+
+    .team-members {
+        margin-bottom: 10px !important;
+    }
+
+    #member-card {
+        margin: 10px;
+    }
+
+    .team-members .card-image {
+        padding: 10px;
+    }
+
+    .project-description p {
+        width: 90%;
+    }
+
+    .Pirtle-Karol img {
+        width: 35% !important;
+
+    }
+
+    .admin-content img {
+        width: 20% !important;
+        /* height: 70% !important; */
+        border-radius: 90%;
+    }
+
+    .admin-content small {
+        margin-top: 15px;
+    }
+
+    #feedback-card {
+        margin-bottom: 20px;
+    }
+
+    .main-content {
+        margin-bottom: 50px !important;
+    }
+
+    #footer .col-lg-4 {
+        padding-bottom: 30px!important;
+    }
+        #footer .col-lg-3 {
+            padding-bottom: 30px !important;
+        }
+
+}
+
+
+
+#choose-platform .list-inline-item button {
+    padding: 23px 40px;
+    font-family: bold;
+    /* color: white; */
+    display: flex;
+    align-items: center;
+}
+
+
+.object-fit-cover {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.navbelow-content {
+    padding-top: 100px;
+}
+
+.project-description p {
+
+    margin: 0 auto;
+
+}
+
+.admin-content img {
+    width: 20%;
+}
+
+.Pirtle-Karol img {
+    width: 10%;
+}
+
+
+.owlcontainer {
+    width: 70%;
+    margin: 0 auto;
+    height: 110px;
+}
+
+.seperator {
+    border-top: 1px solid gray;
+    height: 1px;
+    margin-bottom: 20px;
+}
+
+.main-content {
+    margin-bottom: 100px;
+}
+
+.cards {
+    background-color: rgb(209, 209, 209);
+    height: 800px;
+
+
+}
+
+#sales-card {
+    padding-top: 20px;
+}
+
+.download-btn-wrap a {
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 10px 20px;
+
+}
+
+.feedback {
+    margin-top: 150px;
+    width: 100%;
+    height: 650px;
+    background-color: rgb(2, 2, 59);
+}
+
+#feedback-card {
+    padding: 40px 60px;
+}
+
+#quoteicon {
+    font-size: 40px;
+}
+
+.team-content {
+    margin-top: 100px;
+
+}
+
+.team-members {
+    width: 70%;
+    margin-bottom: 100px;
+}
+
+#member-card {
+    /* background-color: rgb(238, 234, 234); */
+}
+
+.card-image {
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.get-email {
+    background-color: rgb(221, 221, 221);
+    padding-bottom: 80px;
+
+}
+
+.enter-email {
+    width: 40%;
+    margin-right: 18px;
+}
+
+footer {
+    background-color: rgb(2, 2, 59);
+}
+
+footer .col-lg-3,
+.col-lg-2 li a {
+    font-size: 12px;
+
+}
+
+#footer {
+    padding: 40px 74px;
+}
+
+
+.dropdown-toggle::after {
+    display: inline-block;
+    color: white;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+
+
+
+
+
+.bh-stars {
+    display: flex;
+    justify-content: center;
+}
+
+.bh-star {
+    width: 1rem;
+}
+
+.bh-star .outline {
+    fill: gold;
+}
+
+.bh-star .full,
+.bh-star .left-half {
+    fill: gold;
+}

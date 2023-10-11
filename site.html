@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.csse" />
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+   <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-dropdown/2.0.3/jquery.dropdown.min.js">
+   <link rel="stylesheet" href="style.css" />
+   <title>CX CorporX</title>
+</head>
+
+<body>
+   <div class="top-bar bg-light py-3">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-8 col-lg-8">
+               <span class="mr-3"><i class="fas fa-envelope mr-1"></i> CorporX.com</span>
+               <span><i class="fas fa-map-marker mr-1"></i> Kathmandu,Nepal </span>
+            </div>
+            <div class="col-md-4 col-lg-4 text-lg-right">
+               <span><i class="fas fa-phone mr-2"></i>Call Now:
+                  <b>+977 9800000000</b></span>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- topbar end -->
+   <!-- navbar start -->
+
+   <div class="hero-section" style="position: relative;">
+      <div style=" position: absolute; inset: 0; z-index: -2;">
+         <img src="photo.jpg" alt="" style="object-fit: cover;" />
+      </div>
+      <div>
+         <nav class="navbar navbar-expand-lg">
+            <div class="container">
+               <a class="navbar-brand" href="site.html">
+                  <img class="navbar-brand-dark" src="logo.png" alt="logo" />
+               </a>
+               <div class="navbar-collapse collapse">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item dropdown">
+                        <div class="dropdown-addcontent">
+                           <button type="button" class="btn dropdown-toggle dropdown-toggle-split "
+                              data-bs-toggle="dropdown" aria-expanded="false">
+                              <span class="visually-hidden text-white">Home</span>
+
+                           </button>
+                           <ul class="dropdown-menu">
+                              <li class="nav-item">
+                                 <a class="dropdown-item" href="#">1</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="dropdown-item" href="#">2</a>
+                              </li>
+                           </ul>
+
+                        </div>
+                     </li>
+                     <li class="nav-item text-white">
+                        <a class="nav-link text-white" href="#">About Us</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <div class="dropdown-addcontent">
+                           <button type="button" class="btn dropdown-toggle dropdown-toggle-split"
+                              data-bs-toggle="dropdown" aria-expanded="false">
+                              <span class="visually-hidden text-white">Pages</span>
+
+                           </button>
+                           <ul class="dropdown-menu">
+                              <li class="nav-item">
+                                 <a class="dropdown-item" href="#">1</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="dropdown-item" href="#">2</a>
+                              </li>
+                           </ul>
+
+                        </div>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Services</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link text-white" href="#l">Project</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <div class="dropdown-addcontent">
+                           <button type="button" class="btn dropdown-toggle dropdown-toggle-split "
+                              data-bs-toggle="dropdown" aria-expanded="false">
+                              <span class="visually-hidden text-white">Home</span>
+                           </button>
+                           <ul class="dropdown-menu">
+                              <li class="nav-item">
+                                 <a class="dropdown-item" href="#">1</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="dropdown-item" href="#">2</a>
+                              </li>
+                           </ul>
+
+                        </div>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact Us</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <div class="navbelow-content container">
+            <div class="row">
+               <div class="col-lg-6">
+                  <h1>Planning Your Business & More</h1>
+                  <p class="lead">
+                     Completely harness extensive testing procedures via ubiquitous
+                     processes. Globally envisioneer cross
+                  </p>
+                  <ul class="text-dark">
+                     <li class="py-1">
+                        <b>Accounting</b>
+                        Procedures Guidebook
+                     </li>
+                     <li class="py-1">
+                        <b>Cost</b>
+                        Accounting Fundamentals
+                     </li>
+                     <li class="py-1"><b>Corporate</b> Cash Management</li>
+                  </ul>
+                  <a href="#" class="btn btn-primary mt-3">Get Start Now</a>
+               </div>
+            </div>
+         </div>
+         <div id="choose-platform">
+            <ul class="text-center pt-4">
+               <li class="list-inline-item active">
+                  <button class="bg-danger rounded border-0  text-light">
+                     <span class="fas fa-route icon icon-xs mr-2"></span> Marketing
+                  </button>
+               </li>
+
+               <li class="list-inline-item">
+                  <button class="rounded border">
+                     <span class="fas fa-wallet icon icon-xs mr-2"></span> Finance
+                  </button>
+               </li>
+               <li class="list-inline-item " id="consultation">
+                  <button class="rounded border ">
+                     <span class="fas fa-bullhorn icon icon-xs mr-2"></span>
+                     Consultation
+                  </button>
+               </li>
+            </ul>
+
+         </div>
+
+      </div>
+      <div class="overlay" style="
+          position: absolute;
+          z-index: -1;
+          inset: 0;
+          background-image: linear-gradient(
+            to right,
+            rgb(56, 58, 167),
+            rgba(255, 255, 255, 0.1)
+          );
+        "></div>
+   </div>
+
+   <div class="main container">
+      <div class="row project-description">
+         <p class="text-center pb-3">
+            Trusted by over <span class="text-danger">4,500+</span> customers,
+            some of them are here
+         </p>
+
+         <div class="owlcontainer">
+            <div id="myCarousel1" class="owl-carousel owl-theme">
+               <div class="item">
+                  <img decoding="async" class="img-fluid object-fit-cover"
+                     src="https://i0.wp.com/kantipurinfotech.com/wp-content/uploads/2022/06/client-choice-cafe.png?fit=1200%2C800&#038;ssl=1" />
+               </div>
+
+               <div class="item">
+                  <img decoding="async" class="img-fluid object-fit-cover"
+                     src="https://i0.wp.com/kantipurinfotech.com/wp-content/uploads/2022/06/client-ucando.png?fit=1200%2C800&#038;ssl=1" />
+               </div>
+
+               <div class="item">
+                  <img decoding="async" class="img-fluid object-fit-cover"
+                     src="https://i0.wp.com/kantipurinfotech.com/wp-content/uploads/2022/06/client-sulav-sms.png?fit=1200%2C800&#038;ssl=1" />
+               </div>
+
+               <div class="item">
+                  <img decoding="async" class="img-fluid object-fit-cover"
+                     src="https://i0.wp.com/kantipurinfotech.com/wp-content/uploads/2022/06/client-speedygateway.png?fit=1200%2C800&#038;ssl=1" />
+               </div>
+
+               <div class="item">
+                  <img decoding="async" class="img-fluid object-fit-cover"
+                     src="https://i0.wp.com/kantipurinfotech.com/wp-content/uploads/2022/06/client-anket.png?fit=1200%2C800&#038;ssl=1" />
+               </div>
+
+               <div class="item">
+                  <img decoding="async" class="img-fluid object-fit-cover"
+                     src="https://i0.wp.com/kantipurinfotech.com/wp-content/uploads/2022/06/client-rajvaidhya.png?fit=1200%2C800&#038;ssl=1" />
+               </div>
+
+               <div class="item">
+                  <img decoding="async" class="img-fluid object-fit-cover"
+                     src="https://i0.wp.com/kantipurinfotech.com/wp-content/uploads/2022/06/client-qbex.png?fit=1200%2C800&#038;ssl=1" />
+               </div>
+
+               <div class="item">
+                  <img decoding="async" class="img-fluid object-fit-cover"
+                     src="https://i0.wp.com/kantipurinfotech.com/wp-content/uploads/2022/06/client-palikapatra.png?fit=1200%2C800&#038;ssl=1" />
+               </div>
+
+               <div class="item">
+                  <img decoding="async" class="img-fluid object-fit-cover"
+                     src="https://i0.wp.com/kantipurinfotech.com/wp-content/uploads/2022/06/client-pizzaschool.png?fit=1200%2C800&#038;ssl=1" />
+               </div>
+
+               <div class="item">
+                  <img decoding="async" class="img-fluid object-fit-cover"
+                     src="https://i0.wp.com/kantipurinfotech.com/wp-content/uploads/2022/06/client-mayadevitv.png?fit=1200%2C800&#038;ssl=1" />
+               </div>
+
+               <div class="item">
+                  <img decoding="async" class="himg-fluid object-fit-cover"
+                     src="https://i0.wp.com/kantipurinfotech.com/wp-content/uploads/2022/06/client-marutibakers.png?fit=1200%2C800&#038;ssl=1" />
+               </div>
+
+               <div class="item">
+                  <img decoding="async" class="img-fluid object-fit-cover"
+                     src="https://i0.wp.com/kantipurinfotech.com/wp-content/uploads/2022/06/client-lavish.png?fit=1200%2C800&#038;ssl=1" />
+               </div>
+
+               <div class="item">
+                  <img decoding="async" class="img-fluid object-fit-cover"
+                     src="https://i0.wp.com/kantipurinfotech.com/wp-content/uploads/2022/06/client-gandaki.png?fit=1200%2C800&#038;ssl=1" />
+               </div>
+
+               <div class="item">
+                  <img decoding="async" class="img-fluid object-fit-cover"
+                     src="https://i0.wp.com/kantipurinfotech.com/wp-content/uploads/2022/06/client-flavor.png?fit=1200%2C800&#038;ssl=1" />
+               </div>
+
+               <div class="item">
+                  <img decoding="async" class="img-fluid object-fit-cover"
+                     src="https://i0.wp.com/kantipurinfotech.com/wp-content/uploads/2022/06/client-anket.png?fit=1200%2C800&#038;ssl=1" />
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="seperator"></div>
+
+   <div class="container">
+      <div class="row main-content align-items-center">
+         <div class="col-lg-5">
+            <h2>World Class Service Growth Your Business</h2>
+            <p class="text-secondary">
+               Convert your emails into tickets and keep them <br />
+               all organized in one place. Never leave <br />
+               customers questions unanswered.
+            </p>
+            <ul class="list-unstyled tech-feature-list">
+               <li class="py-1"><b>Creative</b> Websites Design</li>
+               <li class="py-1"><b>Accounting</b> Procedures Guidebook</li>
+               <li class="py-1"><b>Cost</b> Accounting Fundamentals</li>
+               <li class="py-1"><b>SEO</b> Optimization Services</li>
+            </ul>
+
+            <a href="#" class="btn btn-primary mt-3">View more <i class="fa-solid fa-arrow-right pt-"></i></a>
+         </div>
+         <div class="col-lg-6 ">
+            <div class="row">
+               <div class="col-lg-6">
+                  <div class="card bg-primary text-white rounded mb-4">
+                     <div class="px-5 py-5 text-center">
+                        <i class="fas fa-user-shield"></i>
+                        <h5>Customer service</h5>
+                        <p>Create low-effort customer service experiences.</p>
+                     </div>
+                  </div>
+                  <div class="card bg-success text-white rounded">
+                     <div class="px-3 py-5 text-center">
+                        <i class="fas fa-fire"></i>
+                        <h5>Predictive service</h5>
+                        <p>Proactively develop B2B alignments rather.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6" id="sales-card">
+                  <div class="card bg-danger text-white rounded mb-4">
+                     <div class="px-5 py-5 text-center">
+                        <i class="fas fa-user-shield"></i>
+                        <h5>Service to sales</h5>
+                        <p>Progressively brand clicks and mortar.</p>
+                     </div>
+                  </div>
+                  <div class="card bg-secondary text-white rounded">
+                     <div class="px-3 py-5 text-center">
+                        <i class="fas fa-fire"></i>
+                        <h5>Make it simple</h5>
+                        <p>Competently evolve user friendly technology.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- Cards-->
+   <div class="cards">
+      <div class="container">
+         <div class="text-center pt-5 pb-0">
+            <h2>Best Quality Services</h2>
+            <p class="lead">
+               Efficiently aggregate core competencies without maintainable ideas.
+               <br />
+               Dynamically foster tactical solutions without enabled value.
+            </p>
+         </div>
+         <!-- <div class="row" style="width: 100%; justify-content: center">
+            <div class="card col-lg-4">
+               <div class="text-center p-5 bg-white">
+                  <h5>Financial Planning</h5>
+                  <p>
+                     You can never go wrong with our own top-notch dedicated with
+                     communities services
+                  </p>
+               </div>
+            </div>
+            <div class="card col-lg-4">
+               <div class="text-center p-5 bg-white">
+                  <h5>Business Growth</h5>
+                  <p>
+                     We can guarantee an excellent experience and loading time for
+                     your successful
+                  </p>
+               </div>
+            </div>
+            <div class="card col-lg-4">
+               <div class="text-center p-5 bg-white">
+                  <h5>Saving Strategy</h5>
+                  <p class="mb-0">
+                     With full root access you will be able to take full control of
+                     your server very easy
+                  </p>
+               </div>
+            </div>
+            <div class="card col-lg-4">
+               <div class="text-center p-5 bg-white">
+                  <h5>Marketing Solutions</h5>
+                  <p>
+                     Our VPS hosting plan is fully packed with dedicated IPv6
+                     Internet protocol IP
+                  </p>
+               </div>
+            </div>
+            <div class="card col-lg-4">
+               <div class="text-center p-5 bg-white">
+                  <h5>Total SEO Solutions</h5>
+                  <p>
+                     If youre not 100% satisfied with Hostlar, well refund your
+                     payment no risk
+                  </p>
+               </div>
+            </div>
+            <div class="card col-lg-4">
+               <div class="text-center p-5 bg-white">
+                  <h5>Business Security</h5>
+                  <p>
+                     One of many premium features is a dedicated IP cheapest VPS
+                     hosting plan
+                  </p>
+               </div>
+            </div>
+         </div> -->
+         <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+
+               <div class="text-center p-5  rounded border bg-white">
+                  <div class="card-icon mb-4">
+                     <img src="verifieduser.jpg" alt="icon" width="60" class="img-fluid">
+                  </div>
+                  <h2 class="h5">Financial Planning</h2>
+                  <p class="mb-0">You can never go wrong with our own top-notch dedicated with communities services</p>
+               </div>
+
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+
+               <div class="text-center p-5  rounded border bg-white">
+                  <div class="card-icon mb-4">
+                     <img src="verifieduser.jpg" alt="icon" width="60" class="img-fluid">
+                  </div>
+                  <h2 class="h5">Business Growth</h2>
+                  <p class="mb-0">We can guarantee an excellent experience and loading time for your successful</p>
+               </div>
+
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+
+               <div class="text-center p-5  rounded border bg-white">
+                  <div class="card-icon mb-4">
+                     <img src="verifieduser.jpg" alt="icon" width="60" class="img-fluid">
+                  </div>
+                  <h2 class="h5">Saving Strategy</h2>
+                  <p class="mb-0">With full root access you will be able to take full control of your server very easy
+                  </p>
+               </div>
+
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+
+               <div class="text-center p-5  rounded border bg-white">
+                  <div class="card-icon mb-4">
+                     <img src="verifieduser.jpg" alt="icon" width="60" class="img-fluid">
+                  </div>
+                  <h2 class="h5">Marketing Solutions</h2>
+                  <p class="mb-0">Our VPS hosting plan is fully packed with dedicated IPv6 Internet protocol IP</p>
+               </div>
+
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 mb-md-0">
+
+               <div class="text-center p-5  rounded border bg-white">
+                  <div class="card-icon mb-4">
+                     <img src="verifieduser.jpg" alt="icon" width="60" class="img-fluid">
+                  </div>
+                  <h2 class="h5">Total SEO Solutions</h2>
+                  <p class="mb-0">If you’re not 100% satisfied with Hostlar, we’ll refund your payment no risk</p>
+               </div>
+
+            </div>
+            <div class="col-md-6 col-lg-4 mb-lg-0 mb-md-0">
+
+               <div class="text-center p-5  rounded border bg-white">
+                  <div class="card-icon mb-4">
+                     <img src="verifieduser.jpg" alt="icon" width="60" class="img-fluid">
+                  </div>
+                  <h2 class="h5">Business Security</h2>
+                  <p class="mb-0">One of many premium features is a dedicated IP cheapest VPS hosting plan</p>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </div>
+   <div style="position: relative">
+      <div style="position: absolute; inset: 0; z-index: -2">
+         <img src="photo.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+      </div>
+      <div class="download-content text-center text-light" style="padding:100px 0px;">
+         <h2>Download Our Business Apps</h2>
+         <p class=" lead">
+            Building your Apps helps attract more potential clients. Our integrated
+            marketing team <br />
+            will promote enabled internal or work high-impact convergence
+         </p>
+         <div class="download-btn-wrap text-center">
+            <a class="btn border text-white" href="#">
+               <div class="d-flex align-items-center">
+                  <span class="icon mr-3"><i class="fab fa-apple"></i></span>
+                  <div>
+                     <small class="font-small">Download on the</small>
+                     <div>App Store</div>
+                  </div>
+               </div>
+            </a>
+            <a class="btn border text-white" href="#">
+               <div class="d-flex align-items-center">
+                  <span class="icon mr-3"><i class="fab fa-google-play"></i></span>
+                  <div>
+                     <small class="font-small">Download on the</small>
+                     <div>Google Play</div>
+                  </div>
+               </div>
+            </a>
+            <a class="btn border text-white" href="#">
+               <div class="d-flex align-items-center">
+                  <span class="icon mr-3"><i class="fab fa-windows"></i></span>
+                  <div>
+                     <small class="font-small">Download on the</small>
+                     <div>Windows</div>
+                  </div>
+               </div>
+            </a>
+         </div>
+         ...........................................
+
+      </div>
+      <div class="overlay" style="
+                position: absolute;
+            
+                z-index: -1;
+                inset: 0;
+                background-image: linear-gradient(
+                  to right,
+                  rgb(56, 58, 167),
+                  rgba(202, 2, 112, 0.6)
+                );
+              "></div>
+   </div>
+
+   <div class="section-heading text-center mb-5 justify-content-center" style="padding-top: 8rem">
+      <h2>Our Latest News</h2>
+      <p class="lead text-center">
+         Dynamically pursue reliable convergence rather than 24/7 <br />
+         process improvements develop end-to-end customer service.
+      </p>
+   </div>
+   <div class="container admin-cards">
+      <div class="row">
+         <div class="col-lg-4">
+            <div class="card bg-white">
+               <div class="blog-img">
+                  <img src="photo.jpg" style="width: 100%; height: 50%px" />
+               </div>
+               <div class="card-body">
+                  <div class=" align-items-center ">
+                     <div class="admin-content d-flex justify-content-between">
+                        <img class="admin border p-1" src="verifieduser.jpg" alt="admin" />
+
+                        <small> Admin <span class="far fa-calendar-alt"></span>15 March
+                           2020</small>
+                     </div>
+                  </div>
+                  <h3 class="h5 card-title mt-3">
+                     <a href="#">Holisticly promote enabled</a>
+                  </h3>
+                  <p class="card-text">
+                     Some quick example text to build on the card title and make up
+                     the bulk of the card's content.
+                  </p>
+                  <a href="#" class="link-with-icon font-small font-weight-bold">Read more <span> <i
+                           class="fas fa-angle-right"></i></span></a>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4">
+            <div class="card bg-white">
+               <div class="blog-img position-relative">
+                  <img src="photo.jpg" style="width: 100%; height: 50%px" />
+               </div>
+               <div class="card-body">
+                  <div class="align-items-center ">
+                     <div class="admin-content d-flex  justify-content-between">
+                        <img class="admin border p-1" src="verifieduser.jpg" alt="admin" />
+
+                        <small>Admin <span class="far fa-calendar-alt"></span>15 March
+                           2020</small>
+                     </div>
+                  </div>
+                  <h3 class="h5 card-title mt-3">
+                     <a href="#">Authoritatively unleash fully</a>
+                  </h3>
+                  <p class="card-text">
+                     Some quick example text to build on the card title and make up
+                     the bulk of the card's content.
+                  </p>
+                  <a href="#" class="link-with-icon font-small font-weight-bold">Read more <span> <i
+                           class="fas fa-angle-right"></i></span></a>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4">
+            <div class="card bg-white">
+               <div class="blog-img position-relative">
+                  <img src="photo.jpg" style="width: 100%; height: 50%px" />
+               </div>
+               <div class="card-body">
+                  <div class=" align-items-center ">
+                     <div class="admin-content d-flex justify-content-between">
+                        <img class="admin  border p-1" src="verifieduser.jpg" alt="admin" />
+
+                        <small>Admin <span class="far fa-calendar-alt"></span>15 March
+                           2020</small>
+                     </div>
+                  </div>
+                  <h3 class="h5 card-title mt-3">
+                     <a href="#">We partnered up with Google</a>
+                  </h3>
+                  <p class="card-text">
+                     Some quick example text to build on the card title and make up
+                     the bulk of the card's content.
+                  </p>
+                  <a href="#" class="link-with-icon font-small font-weight-bold" target="_blank">Read more <span> <i
+                           class="fas fa-angle-right"></i></span></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- bluebody -->
+   <section class="feedback">
+      <div class="container pt-5">
+         <div class="section-heading text-center text-white">
+            <h2>What Clients Say About Us</h2>
+            <p class="lead">
+               Rapidiously morph transparent internal or "organic" sources whereas
+               <br />
+               resource sucking e-business innovate compelling internal.
+            </p>
+         </div>
+      </div>
+      <div class="container quote-card pt-5">
+         <div class="row">
+            <div class="col-lg-6">
+               <div class="card rounded-border bg-white" id="feedback-card">
+                  <div class="quotation text-secondary">
+                     <span class="icon icon-md icon-lg" id="quoteicon"><i class="fas fa-quote-left"></i></span>
+                  </div>
+                  <div class="quote">
+                     <i class="lead text-secondary">
+                        Intrinsicly facilitate functional imperatives without
+                        next-generation services. Compellingly revolutionize worldwide
+                        users enterprise best practices.
+                     </i>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                     <div class="Pirtle-Karol d-flex pt-3">
+                        <img class="admin rounded-circle border mr-3" src="verifieduser.jpg" alt="admin" />
+                        <span>
+                           <h6 class="mb-0">Pirtle Karol</h6>
+                           <small>Team Leader, ThemeTags</small>
+                        </span>
+                     </div>
+                     <div class="bh-stars" data-bh-rating="2.5">
+                        <svg version="1.1" class="bh-star bh-star--1" xmlns="http://www.w3.org/2000/svg"
+                           xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" xml:space="preserve">
+                           <path class="outline"
+                              d="M12,4.2L14.5,9l0.2,0.5l0.5,0.1l5.5,0.8L16.8,14l-0.4,0.4l0.1,0.5l1,5.3l-5-2.5L12,17.5l-0.4,0.2l-5,2.5L7.5,15l0.1-0.5 L7.2,14l-4-3.7l5.5-0.8l0.5-0.1L9.5,9L12,4.2 M11.9,2L8.6,8.6L1,9.7l5.5,5.1L5.2,22l6.8-3.4l6.8,3.4l-1.3-7.2L23,9.6l-7.6-1L11.9,2 L11.9,2z" />
+                           <polygon class="full"
+                              points="18.8,22 12,18.6 5.2,22 6.5,14.8 1,9.7 8.6,8.6 11.9,2 15.4,8.6 23,9.6 17.5,14.7" />
+                           <polyline class="left-half" points="12,18.6 5.2,22 6.5,14.8 1,9.7 8.6,8.6 11.9,2" />
+                        </svg>
+
+                        <svg version="1.1" class="bh-star bh-star--2" xmlns="http://www.w3.org/2000/svg"
+                           xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" xml:space="preserve">
+                           <path class="outline"
+                              d="M12,4.2L14.5,9l0.2,0.5l0.5,0.1l5.5,0.8L16.8,14l-0.4,0.4l0.1,0.5l1,5.3l-5-2.5L12,17.5l-0.4,0.2l-5,2.5L7.5,15l0.1-0.5 L7.2,14l-4-3.7l5.5-0.8l0.5-0.1L9.5,9L12,4.2 M11.9,2L8.6,8.6L1,9.7l5.5,5.1L5.2,22l6.8-3.4l6.8,3.4l-1.3-7.2L23,9.6l-7.6-1L11.9,2 L11.9,2z" />
+                           <polygon class="full"
+                              points="18.8,22 12,18.6 5.2,22 6.5,14.8 1,9.7 8.6,8.6 11.9,2 15.4,8.6 23,9.6 17.5,14.7" />
+                           <polyline class="left-half" points="12,18.6 5.2,22 6.5,14.8 1,9.7 8.6,8.6 11.9,2" />
+                        </svg>
+
+                        <svg version="1.1" class="bh-star bh-star--3" xmlns="http://www.w3.org/2000/svg"
+                           xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" xml:space="preserve">
+                           <path class="outline"
+                              d="M12,4.2L14.5,9l0.2,0.5l0.5,0.1l5.5,0.8L16.8,14l-0.4,0.4l0.1,0.5l1,5.3l-5-2.5L12,17.5l-0.4,0.2l-5,2.5L7.5,15l0.1-0.5 L7.2,14l-4-3.7l5.5-0.8l0.5-0.1L9.5,9L12,4.2 M11.9,2L8.6,8.6L1,9.7l5.5,5.1L5.2,22l6.8-3.4l6.8,3.4l-1.3-7.2L23,9.6l-7.6-1L11.9,2 L11.9,2z" />
+                           <polygon class="full"
+                              points="18.8,22 12,18.6 5.2,22 6.5,14.8 1,9.7 8.6,8.6 11.9,2 15.4,8.6 23,9.6 17.5,14.7" />
+                           <polyline class="left-half" points="12,18.6 5.2,22 6.5,14.8 1,9.7 8.6,8.6 11.9,2" />
+                        </svg>
+
+                        <svg version="1.1" class="bh-star bh-star--4" xmlns="http://www.w3.org/2000/svg"
+                           xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" xml:space="preserve">
+                           <path class="outline"
+                              d="M12,4.2L14.5,9l0.2,0.5l0.5,0.1l5.5,0.8L16.8,14l-0.4,0.4l0.1,0.5l1,5.3l-5-2.5L12,17.5l-0.4,0.2l-5,2.5L7.5,15l0.1-0.5 L7.2,14l-4-3.7l5.5-0.8l0.5-0.1L9.5,9L12,4.2 M11.9,2L8.6,8.6L1,9.7l5.5,5.1L5.2,22l6.8-3.4l6.8,3.4l-1.3-7.2L23,9.6l-7.6-1L11.9,2 L11.9,2z" />
+                           <polygon class="full"
+                              points="18.8,22 12,18.6 5.2,22 6.5,14.8 1,9.7 8.6,8.6 11.9,2 15.4,8.6 23,9.6 17.5,14.7" />
+                           <polyline class="left-half" points="12,18.6 5.2,22 6.5,14.8 1,9.7 8.6,8.6 11.9,2" />
+                        </svg>
+
+                        <svg version="1.1" class="bh-star bh-star--5" xmlns="http://www.w3.org/2000/svg"
+                           xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" xml:space="preserve">
+                           <path class="outline"
+                              d="M12,4.2L14.5,9l0.2,0.5l0.5,0.1l5.5,0.8L16.8,14l-0.4,0.4l0.1,0.5l1,5.3l-5-2.5L12,17.5l-0.4,0.2l-5,2.5L7.5,15l0.1-0.5 L7.2,14l-4-3.7l5.5-0.8l0.5-0.1L9.5,9L12,4.2 M11.9,2L8.6,8.6L1,9.7l5.5,5.1L5.2,22l6.8-3.4l6.8,3.4l-1.3-7.2L23,9.6l-7.6-1L11.9,2 L11.9,2z" />
+                           <polygon class="full"
+                              points="18.8,22 12,18.6 5.2,22 6.5,14.8 1,9.7 8.6,8.6 11.9,2 15.4,8.6 23,9.6 17.5,14.7" />
+                           <polyline class="left-half" points="12,18.6 5.2,22 6.5,14.8 1,9.7 8.6,8.6 11.9,2" />
+                        </svg>
+
+                     </div>
+
+                  </div>
+                  <small class=" text-secondary ">5.0 out of 5</small>
+
+               </div>
+
+            </div>
+            <div class="col-lg-6">
+               <div class="card rounded-border" id="feedback-card">
+                  <div class="quotation text-secondary">
+                     <span class="icon icon-md icon-lg" id="quoteicon"><i class="fas fa-quote-left"></i></span>
+                  </div>
+                  <div class="quote">
+                     <i class="lead text-secondary">
+                        Intrinsicly facilitate functional imperatives without
+                        next-generation services. Compellingly revolutionize worldwide
+                        users enterprise best practices.</i>
+                  </div>
+                  <div class="d-flex justify-content-between">
+                     <div class="Pirtle-Karol d-flex pt-3">
+                        <img class="admin rounded-circle border mr-3" src="verifieduser.jpg" alt="admin" />
+                        <span>
+                           <h6 class="mb-0">Pirtle Karol</h6>
+                           <small>Team Leader, ThemeTags</small>
+                        </span>
+                     </div>
+                     <div class="bh-stars" data-bh-rating="2.5">
+                        <svg version="1.1" class="bh-star bh-star--1" xmlns="http://www.w3.org/2000/svg"
+                           xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" xml:space="preserve">
+                           <path class="outline"
+                              d="M12,4.2L14.5,9l0.2,0.5l0.5,0.1l5.5,0.8L16.8,14l-0.4,0.4l0.1,0.5l1,5.3l-5-2.5L12,17.5l-0.4,0.2l-5,2.5L7.5,15l0.1-0.5 L7.2,14l-4-3.7l5.5-0.8l0.5-0.1L9.5,9L12,4.2 M11.9,2L8.6,8.6L1,9.7l5.5,5.1L5.2,22l6.8-3.4l6.8,3.4l-1.3-7.2L23,9.6l-7.6-1L11.9,2 L11.9,2z" />
+                           <polygon class="full"
+                              points="18.8,22 12,18.6 5.2,22 6.5,14.8 1,9.7 8.6,8.6 11.9,2 15.4,8.6 23,9.6 17.5,14.7" />
+                           <polyline class="left-half" points="12,18.6 5.2,22 6.5,14.8 1,9.7 8.6,8.6 11.9,2" />
+                        </svg>
+
+                        <svg version="1.1" class="bh-star bh-star--2" xmlns="http://www.w3.org/2000/svg"
+                           xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" xml:space="preserve">
+                           <path class="outline"
+                              d="M12,4.2L14.5,9l0.2,0.5l0.5,0.1l5.5,0.8L16.8,14l-0.4,0.4l0.1,0.5l1,5.3l-5-2.5L12,17.5l-0.4,0.2l-5,2.5L7.5,15l0.1-0.5 L7.2,14l-4-3.7l5.5-0.8l0.5-0.1L9.5,9L12,4.2 M11.9,2L8.6,8.6L1,9.7l5.5,5.1L5.2,22l6.8-3.4l6.8,3.4l-1.3-7.2L23,9.6l-7.6-1L11.9,2 L11.9,2z" />
+                           <polygon class="full"
+                              points="18.8,22 12,18.6 5.2,22 6.5,14.8 1,9.7 8.6,8.6 11.9,2 15.4,8.6 23,9.6 17.5,14.7" />
+                           <polyline class="left-half" points="12,18.6 5.2,22 6.5,14.8 1,9.7 8.6,8.6 11.9,2" />
+                        </svg>
+
+                        <svg version="1.1" class="bh-star bh-star--3" xmlns="http://www.w3.org/2000/svg"
+                           xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" xml:space="preserve">
+                           <path class="outline"
+                              d="M12,4.2L14.5,9l0.2,0.5l0.5,0.1l5.5,0.8L16.8,14l-0.4,0.4l0.1,0.5l1,5.3l-5-2.5L12,17.5l-0.4,0.2l-5,2.5L7.5,15l0.1-0.5 L7.2,14l-4-3.7l5.5-0.8l0.5-0.1L9.5,9L12,4.2 M11.9,2L8.6,8.6L1,9.7l5.5,5.1L5.2,22l6.8-3.4l6.8,3.4l-1.3-7.2L23,9.6l-7.6-1L11.9,2 L11.9,2z" />
+                           <polygon class="full"
+                              points="18.8,22 12,18.6 5.2,22 6.5,14.8 1,9.7 8.6,8.6 11.9,2 15.4,8.6 23,9.6 17.5,14.7" />
+                           <polyline class="left-half" points="12,18.6 5.2,22 6.5,14.8 1,9.7 8.6,8.6 11.9,2" />
+                        </svg>
+
+                        <svg version="1.1" class="bh-star bh-star--4" xmlns="http://www.w3.org/2000/svg"
+                           xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" xml:space="preserve">
+                           <path class="outline"
+                              d="M12,4.2L14.5,9l0.2,0.5l0.5,0.1l5.5,0.8L16.8,14l-0.4,0.4l0.1,0.5l1,5.3l-5-2.5L12,17.5l-0.4,0.2l-5,2.5L7.5,15l0.1-0.5 L7.2,14l-4-3.7l5.5-0.8l0.5-0.1L9.5,9L12,4.2 M11.9,2L8.6,8.6L1,9.7l5.5,5.1L5.2,22l6.8-3.4l6.8,3.4l-1.3-7.2L23,9.6l-7.6-1L11.9,2 L11.9,2z" />
+                           <polygon class="full"
+                              points="18.8,22 12,18.6 5.2,22 6.5,14.8 1,9.7 8.6,8.6 11.9,2 15.4,8.6 23,9.6 17.5,14.7" />
+                           <polyline class="left-half" points="12,18.6 5.2,22 6.5,14.8 1,9.7 8.6,8.6 11.9,2" />
+                        </svg>
+
+                        <svg version="1.1" class="bh-star bh-star--5" xmlns="http://www.w3.org/2000/svg"
+                           xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" xml:space="preserve">
+                           <path class="outline"
+                              d="M12,4.2L14.5,9l0.2,0.5l0.5,0.1l5.5,0.8L16.8,14l-0.4,0.4l0.1,0.5l1,5.3l-5-2.5L12,17.5l-0.4,0.2l-5,2.5L7.5,15l0.1-0.5 L7.2,14l-4-3.7l5.5-0.8l0.5-0.1L9.5,9L12,4.2 M11.9,2L8.6,8.6L1,9.7l5.5,5.1L5.2,22l6.8-3.4l6.8,3.4l-1.3-7.2L23,9.6l-7.6-1L11.9,2 L11.9,2z" />
+                           <polygon class="full"
+                              points="18.8,22 12,18.6 5.2,22 6.5,14.8 1,9.7 8.6,8.6 11.9,2 15.4,8.6 23,9.6 17.5,14.7" />
+                           <polyline class="left-half" points="12,18.6 5.2,22 6.5,14.8 1,9.7 8.6,8.6 11.9,2" />
+                        </svg>
+
+                     </div>
+                  </div>
+                  <small class=" text-secondary ">5.0 out of 5</small>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="team-content">
+      <div class="container">
+         <div class="section-heading text-center text-dark">
+            <h2>Our Team</h2>
+            <p class="lead text-secondary">
+               Dynamically pursue reliable convergence rather than 24/7 process
+               <br />
+               improvements develop end-to-end customer service.
+            </p>
+         </div>
+      </div>
+      <div class="container team-members mt-5">
+         <div class="row">
+            <div class="col-md-6 col-lg-4">
+
+               <div class="card " id="member-card">
+                  <div class="card-image  ">
+                     <img src="sanya.jpg" class="rounded-circle rounded-border shadow" style="width:100px;"
+                        alt="member">
+                  </div>
+                  <div class="card-body text-center px-5 pb-5 pt-0">
+                     <h3 class="h5 mb-2">John Q. Public</h3>
+                     <span class="h6 font-weight-normal text-gray mb-3">Developer</span>
+                     <ul class="list-unstyled d-flex my-3 justify-content-center">
+                        <li>
+                           <a href="#" target="_blank" class="icon mr-3">
+                              <span class="fab fa-facebook-f"></span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" target="_blank" class="icon mr-3">
+                              <span class="fab fa-twitter"></span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" target="_blank" class="icon mr-3">
+                              <span class="fab fa-youtube"></span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" target="_blank" class="icon mr-3">
+                              <span class="fab fa-dribbble"></span>
+                           </a>
+                        </li>
+                     </ul>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                  </div>
+               </div>
+
+            </div>
+            <div class="col-md-6 col-lg-4">
+
+               <div class="card " id="member-card">
+                  <div class="card-image ">
+                     <img src="sanya.jpg" class="rounded-circle rounded-border shadow " style="width:100px;"
+                        alt="member">
+                  </div>
+                  <div class="card-body text-center px-5 pb-5 pt-0">
+                     <h3 class="h5 mb-2">John Q. Public</h3>
+                     <span class="h6 font-weight-normal text-gray mb-3">Developer</span>
+                     <ul class="list-unstyled d-flex my-3 justify-content-center">
+                        <li>
+                           <a href="#" target="_blank" class="icon mr-3">
+                              <span class="fab fa-facebook-f"></span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" target="_blank" class="icon mr-3">
+                              <span class="fab fa-twitter"></span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" target="_blank" class="icon mr-3">
+                              <span class="fab fa-youtube"></span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" target="_blank" class="icon mr-3">
+                              <span class="fab fa-dribbble"></span>
+                           </a>
+                        </li>
+                     </ul>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                  </div>
+               </div>
+
+            </div>
+            <div class="col-md-6 col-lg-4">
+               <div class="card " id="member-card">
+                  <div class="card-image ">
+                     <img src="sanya.jpg" class="rounded-circle rounded-border shadow" style="width:100px;"
+                        alt="member">
+                  </div>
+                  <div class="card-body text-center px-5 pb-5 pt-0">
+                     <h3 class="h5 mb-2">John Q. Public</h3>
+                     <span class="h6 font-weight-normal text-gray mb-3">Developer</span>
+                     <ul class="list-unstyled d-flex my-3 justify-content-center">
+                        <li>
+                           <a href="#" target="_blank" class="icon mr-3">
+                              <span class="fab fa-facebook-f"></span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" target="_blank" class="icon mr-3">
+                              <span class="fab fa-twitter"></span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" target="_blank" class="icon mr-3">
+                              <span class="fab fa-youtube"></span>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" target="_blank" class="icon mr-3">
+                              <span class="fab fa-dribbble"></span>
+                           </a>
+                        </li>
+                     </ul>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                  </div>
+               </div>
+
+            </div>
+
+
+         </div>
+      </div>
+
+   </section>
+   <section class="get-email">
+      <div class="container pt-5">
+         <div class="justify-content-center text-center">
+            <span style="font-size: 50px;"><i class="fa-solid fa-envelope-open-text"></i></span>
+            <h4 class="my-2">Join our 3,45,441 subscribers</h2>
+               <p class="mb-4">Get exclusive access to freebies, premium products and news.</p>
+               <div class="d-flex justify-content-center">
+                  <input type="text" class="enter-email text-center" placeholder="Enter your email address here">
+                  <button type="submit" class="btn btn-danger">Subscribe</button>
+               </div>
+
+
+         </div>
+      </div>
+   </section>
+   <footer>
+      <div class="container" id="footer">
+         <div class="row text-white">
+            <div class=" col-lg-4 ">
+               <a href="index.html">
+                  <img src="logo.png" alt="Footer logo">
+               </a>
+               <p class="my-4">Interactively unleash interactive best practices before technically sound portals.</p>
+               <div class=" mt-4">
+                  <button class="btn text-white" type="button">
+                     <span aria-hidden="true" class="fab fa-twitter"></span>
+                  </button>
+                  <button class="btn text-white" type="button">
+                     <span aria-hidden="true" class="fab fa-facebook-f"></span>
+                  </button>
+                  <button class="btn text-white" type="button">
+                     <span aria-hidden="true" class="fab fa-youtube"></span>
+                  </button>
+                  <button class="btn text-white" type="button">
+                     <span aria-hidden="true" class="fab fa-dribbble"></span>
+               </div>
+            </div>
+            <div class=" col-lg-3 ">
+               <h5 class="mb-4">Company</h5>
+               <ul class="list-unstyled">
+                  <li><a target="_blank" class="text-white" href="#">About Us</a></li>
+                  <li><a target="_blank" class="text-white" href="#">Careers</a></li>
+                  <li><a target="_blank" class="text-white" href="#">Customers</a></li>
+                  <li><a target="_blank" class="text-white" href="#">Community</a></li>
+               </ul>
+            </div>
+            <div class="col-lg-3">
+               <h5 class="mb-4">Resources</h5>
+               <ul class="list-unstyled">
+                  <li><a target="_blank" href="#" class="text-white">Help</a></li>
+                  <li><a target="_blank" href="#" class="text-white">Events</a></li>
+                  <li><a target="_blank" href="#" class="text-white">Live sessions</a></li>
+                  <li><a target="_blank" href="#" class="text-white">Open sources</a></li>
+               </ul>
+            </div>
+            <div class="col-lg-2">
+               <h5 class="mb-4">Support</h5>
+               <ul class="list-unstyled">
+                  <li><a target="_blank " href="#" class="text-white">Help</a></li>
+                  <li><a target="_blank" href="#" class="text-white">Tech Support</a></li>
+                  <li><a target="_blank" href="#" class="text-white">Network Status</a></li>
+                  <li><a target="_blank" href="#" class="text-white">Contact Support</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+
+      <div class="footer py-3 text-white border-top text-center justify-content-center align-items-center">
+         <p>Copyrights © 2021. All
+            rights reserved by ThemeTags
+
+         </p>
+
+
+
+
+      </div>
+   </footer>
+
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.12.0/headroom.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+   <script src="owlcarousel.js"></script>
+   <script src="main.js"></script>
+</body>
+
+</html>
